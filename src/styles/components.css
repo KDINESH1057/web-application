@@ -1,0 +1,67 @@
+/*interactive-mood-journal/interactive-mood-journal/src/styles/components.css
+
+/* Component-specific styles */
+
+/* Mood Selector Styles */
+.mood-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.mood-option {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.mood-option:hover {
+    transform: scale(1.2);
+}
+
+/* Weather Display Styles */
+.weather-display {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Calendar View Styles */
+.calendar-view {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.calendar-day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header-date {
+    font-size: 1.2rem;
+    color: #666;
+}
